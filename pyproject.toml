@@ -1,0 +1,19 @@
+[project]
+name = "hexlet-code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+#1. Секция сборки (чтобы uv понимал, как упаковать проект):
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+#2. Указание на пакеты:
+[tool.hatch.build.targets.wheel]
+packages = ["brain_games"]
+#3. Точка входа (Scripts). Это магия, которая превратит запуск файла в команду brain-games:
+[project.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
+#Разбор строки: название-команды = "пакет.папка.модуль:функция".
