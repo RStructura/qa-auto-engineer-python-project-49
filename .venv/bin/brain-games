@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' '/home/ssd256lm/Hexlet/Project 1/qa-auto-engineer-python-project-49/.venv/bin/python' "$0" "$@"
+'''exec' '/home/ssd256lm/Hexlet/Project 1/qa-auto-engineer-python-project-49/.venv/bin/python3' "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import sys
