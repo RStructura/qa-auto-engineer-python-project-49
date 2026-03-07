@@ -2,6 +2,9 @@ import random
 
 import prompt
 
+# u_a = user_answer, c_a = correct_answer.
+# Пришлось сократить, чтобы влезть в 80 символов.
+
 
 def main():
 	print("Welcome to the Brain Games!")
@@ -13,14 +16,14 @@ def main():
 	for _ in range(rounds_count):
 		number = random.randint(1, 100)
 		print(f"Question: {number}")
-		user_answer = prompt.string("Your answer: ")
+		u_a = prompt.string("Your answer: ")
 
-		correct_answer = 'yes' if number % 2 == 0 else 'no'
+		c_a = 'yes' if number % 2 == 0 else 'no'
 
-		if user_answer == correct_answer:
+		if u_a == c_a:
 			print("Correct!")
 		else:
-			print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+			print(f"'{u_a}' is wrong answer ;(. Correct answer was '{c_a}'.")
 			print(f"Let's try again, {name}!")
 			return
 
