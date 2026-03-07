@@ -10,11 +10,16 @@ def get_round_data():
 
 	question = f"{num1} {operator} {num2}"
 
-	if operator == '+':
-		answer = num1 + num2
-	elif operator == '-':
-		answer = num1 - num2
-	else:
-		answer = num1 * num2
+	match operator:
+		case '+':
+			answer = num1 + num2
+		case '-':
+			answer = num1 - num2
+		case '*':
+			answer = num1 * num2
+		case _:
+			raise ValueError(f"Unknown operator: {operator}")
 
 	return question, str(answer)
+
+
