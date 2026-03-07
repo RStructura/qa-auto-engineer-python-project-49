@@ -23,8 +23,8 @@ dev = [
     "ruff>=0.15.5",
 ]
 
-#3. Точка входа (Scripts):
+#3. Точка входа (Scripts).Название-команды = "пакет.папка.модуль:функция":
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
-#Разбор строки: название-команды = "пакет.папка.модуль:функция".
+brain-calc = "brain_games.scripts.brain_calc:main"
