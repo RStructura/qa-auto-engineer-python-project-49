@@ -10,3 +10,10 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=RStructura_qa-auto-engineer-python-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=RStructura_qa-auto-engineer-python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=RStructura_qa-auto-engineer-python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=RStructura_qa-auto-engineer-python-project-49)
 
+| Game | Demo |
+| :--- | :--- |
+| Brain Even | [![Play](https://img.shields.io/badge/asciinema-9GBlme-blue?logo=asciinema)](https://asciinema.org/a/9GBlmeIpmSfn6brn) |
+| Brain Calc | [![Play](https://img.shields.io/badge/asciinema-dZAUWl-blue?logo=asciinema)](https://asciinema.org/a/dZAUWlfHohz2IDIo) |
+| Brain GCD | [![Play](https://img.shields.io/badge/asciinema-LNC5iY-blue?logo=asciinema)](https://asciinema.org/a/LNC5iYzi6MCdbH9z) |
+| Brain Progression | [![Play](https://img.shields.io/badge/asciinema-eQ8rrY-blue?logo=asciinema)](https://asciinema.org/a/eQ8rrYrxshM8Zc4x) |
+| Brain Prime | [![Play](https://img.shields.io/badge/asciinema-yZxKpA-blue?logo=asciinema)](https://asciinema.org/a/yZxKpA47HazgMV3d) |
