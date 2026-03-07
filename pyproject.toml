@@ -15,6 +15,11 @@ build-backend = "hatchling.build"
 #2. Указание на пакеты:
 [tool.hatch.build.targets.wheel]
 packages = ["brain_games"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.5",
+]
 #3. Точка входа (Scripts). Это магия, которая превратит запуск файла в команду brain-games:
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
