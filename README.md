@@ -1,3 +1,5 @@
+# Brain Games (Python)
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/RStructura/qa-auto-engineer-python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/RStructura/qa-auto-engineer-python-project-49/actions)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=RStructura_qa-auto-engineer-python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=RStructura_qa-auto-engineer-python-project-49)
@@ -10,10 +12,23 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=RStructura_qa-auto-engineer-python-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=RStructura_qa-auto-engineer-python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=RStructura_qa-auto-engineer-python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=RStructura_qa-auto-engineer-python-project-49)
 
-| Game | Demo |
-| :--- | :--- |
-| Brain Even | [![Play](https://img.shields.io/badge/asciinema-9GBlme-blue?logo=asciinema)](https://asciinema.org/a/9GBlmeIpmSfn6brn) |
-| Brain Calc | [![Play](https://img.shields.io/badge/asciinema-dZAUWl-blue?logo=asciinema)](https://asciinema.org/a/dZAUWlfHohz2IDIo) |
-| Brain GCD | [![Play](https://img.shields.io/badge/asciinema-LNC5iY-blue?logo=asciinema)](https://asciinema.org/a/LNC5iYzi6MCdbH9z) |
-| Brain Progression | [![Play](https://img.shields.io/badge/asciinema-eQ8rrY-blue?logo=asciinema)](https://asciinema.org/a/eQ8rrYrxshM8Zc4x) |
-| Brain Prime | [![Play](https://img.shields.io/badge/asciinema-yZxKpA-blue?logo=asciinema)](https://asciinema.org/a/yZxKpA47HazgMV3d) |
+### About the games:
+"Brain Games" is a collection of five console games based on popular mobile brain training apps. Each game asks questions that require correct answers.
+
+### Instalation:
+The application requires Python version 3.12 or higher to run.
+
+1. Clone the repository:
+   `git clone https://github.com/RStructura/qa-auto-engineer-python-project-49.git`
+2. Navigate to the project folder.
+3. Install dependencies and the pachage:
+   `make package-install`
+
+### Games & Demos
+| Game | Description | Command | Demo |
+| :--- | :--- | :--- | :--- |
+| **Brain Even** | Answer "yes" if the number is even, otherwise answer "no". | `brain-even` | [![Play](https://img.shields.io/badge/asciinema-9GBlme-blue?logo=asciinema)](https://asciinema.org/a/9GBlmeIpmSfn6brn) |
+| **Brain Calc** | Solve a random arithmetic expression. | `brain-calc` | [![Play](https://img.shields.io/badge/asciinema-dZAUWl-blue?logo=asciinema)](https://asciinema.org/a/dZAUWlfHohz2IDIo) |
+| **Brain GCD** | Find the greatest common divisor of two given numbers. | `brain-gcd` | [![Play](https://img.shields.io/badge/asciinema-LNC5iY-blue?logo=asciinema)](https://asciinema.org/a/LNC5iYzi6MCdbH9z) |
+| **Brain Progression** | Find the missing number in an arithmetic progression. | `brain-progression` | [![Play](https://img.shields.io/badge/asciinema-eQ8rrY-blue?logo=asciinema)](https://asciinema.org/a/eQ8rrYrxshM8Zc4x) |
+| **Brain Prime** | Answer "yes" if the number is prime, otherwise answer "no". | `brain-prime` | [![Play](https://img.shields.io/badge/asciinema-yZxKpA-blue?logo=asciinema)](https://asciinema.org/a/yZxKpA47HazgMV3d) |
