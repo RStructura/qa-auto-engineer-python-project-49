@@ -1,4 +1,9 @@
-.venv/
-dist/
 __pycache__/
+.Makefile.swp
+.venv/
+*.cast
+*.egg-info/
 *.pyc
+build/
+dist/
+main.py
